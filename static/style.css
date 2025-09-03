@@ -11,6 +11,13 @@ body {
   color: #333;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -467,8 +474,24 @@ form select:focus {
 }
 
 
-/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 1366px) {
+  .hero {
+    flex-direction: row;  
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
 
+  .hero-image img {
+    max-width: 450px;
+  }
+
+  .hero-text {
+    max-width: 600px;
+  }
+}
+
+
+/* MOBILE RESPONSIVENESS */
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
