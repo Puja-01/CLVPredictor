@@ -71,6 +71,6 @@ gunicorn app:app
 
 ## 🌐 Live Demo
 
-Try the live app here: 👉 [CLV Predictor Live](https://clv-predictor.onrender.com/)
+Try the live app here: 👉 [CLV Predictor Live](https://clvpredictor.onrender.com/)
 
 ---
